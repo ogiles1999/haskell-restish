@@ -13,7 +13,6 @@ author:         oliver
 maintainer:     ogiles@email.com
 copyright:      2022 oliver
 license:        BSD3
-license-file:   LICENSE
 build-type:     Simple
 extra-source-files:
     README.md
@@ -44,6 +43,7 @@ executable haskell-restish-exe
   build-depends:
       base >=4.7 && <5
     , haskell-restish
+    , servant-server
   default-language: Haskell2010
 
 test-suite haskell-restish-test
